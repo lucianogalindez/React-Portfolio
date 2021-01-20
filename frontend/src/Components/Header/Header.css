@@ -1,0 +1,135 @@
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    z-index: 3;
+    transition: all 0.2s ease-in;
+}
+
+.header-gray {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+    z-index: 5;
+    transition: all 0.2s ease-in;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 50px;
+}
+
+.header__left {
+    padding-left: 20px;
+}
+
+.header__logo > a {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;   
+}
+
+.header__logo > a:hover {
+    color: rgb(248, 205, 14);
+    font-size: 35px;
+    transition: all 0.2s ease-in;
+}
+
+.header__right {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.header__right > a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    transition: color 0.2s ease-in-out 0s;
+}
+
+.header__right > a:hover {
+    color: rgb(248, 205, 14);
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__hiddenMenu--close, .header__hiddenMenu--open {
+    display: none;
+}
+
+
+@media screen and (max-width: 640px) {
+    .header__right {
+        display: none
+    }
+
+    .header__burger {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        z-index: 100;
+        cursor: pointer;
+        color: rgb(248, 205, 14);
+    }
+
+    
+    .header__hiddenMenu--open {
+        display: block;
+        position: absolute;
+        justify-content: space-evenly;
+        align-items: center;
+        top: 60px;
+        right: 0;
+        transform: translateX(0%);
+        display: flex;
+        flex-direction: column;
+        /*background-color: #fa904a;*/
+        background-color: lightgray;    
+        color: black;
+        opacity: 1;
+        height: 200px;
+        width: 100%;
+        transition: 1s all ease;
+        z-index: 1000;
+        font-weight: bold;
+    }
+
+    .header__hiddenMenu--close {
+        display: block;
+        position: absolute;
+        justify-content: space-evenly;
+        align-items: center;
+        top: 60px;
+        right: 0px;
+        transform: translateX(100%);
+        display: flex;
+        flex-direction: column;
+        background-color: lightgray;
+        color: black;
+        height: 200px;
+        width: 200px;
+        transition: 1s all ease;
+        font-weight: bold;
+        opacity: 0.3;
+        z-index: 1000;
+    }
+
+    .header__hiddenMenu-button {
+        color: black;
+    }
+
+    .header__hiddenMenu-button:hover {
+        color: rgb(248, 205, 14);
+    }
+}
