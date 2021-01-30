@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import profilePic from '../../images/grayBackground.jpg'
+import profilePic from '../../images/luciano.jpg'
 
 export default function About() {
     return (

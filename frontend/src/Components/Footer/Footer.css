@@ -1,0 +1,68 @@
+.footer {
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+    position: relative;
+}
+
+.footer__creator {
+    color: white;
+    font-size: 0.8rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0.6rem;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__social > a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__social > a > .MuiSvgIcon-root {
+    color: white;
+    cursor: pointer;
+    margin: 0 0.3rem;
+    transition: all 0.2s ease-in;
+}
+
+.facebook > .MuiSvgIcon-root {
+    font-size: 2.4rem;
+}
+
+.linkedin > .MuiSvgIcon-root {
+    font-size: 2.5rem;
+}
+
+
+.footer__social > a > .MuiSvgIcon-root:hover {
+    color: #3b5998;
+    transform: scale(1.2);
+}
+
+.footer__up > a > .MuiSvgIcon-root {
+    color: black;
+    border: none;
+    background-color: rgb(248, 205, 14);
+    border-radius: 100%;
+    position: absolute;
+    top: -1.1rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 0.3rem;
+    transition: all 0.2s ease-in;
+}
+
+.footer__up > a > .MuiSvgIcon-root:hover {
+    background-color: white;
+    transform: scale(1.2);
+}

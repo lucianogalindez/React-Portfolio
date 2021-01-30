@@ -1,0 +1,47 @@
+{
+    "description": {
+        "calle": "san martin 677",
+        "provicia": "Argentina"
+    },
+    "skills": [
+        {
+            "name": "JavaScript",
+            "level": "70%"
+        },
+        {
+            "name": "ReactJS",
+            "level": "80%"
+        },
+        {
+            "name": "MongoDB",
+            "level": "60%"
+        },
+        {
+            "name": "NodeJS",
+            "level": "60%"
+        }
+    ],
+    "works": [
+        {
+            "key": 1,
+            "name": "FrontEnd Netflix Clone",
+            "skillsUsed": "ReactJS - Api - Axios - CSS",
+            "image": "images/netflix.png",
+            "url": "https://netflix-clone-a450e.web.app/"
+        },
+        {
+            "key": 2,
+            "name": "Facebook MERN Clone",
+            "skillsUsed": "ReactJs - NodeJs - Express - MongoDB",
+            "image": "images/facebook.png",
+            "url": "https://facebook-clone-mern.web.app/"
+        },
+        {
+            "key": 3,
+            "name": "Ecommerce Aldonza Online",
+            "skillsUsed": "ReactJs - NodeJs - MongoDB - Api's Mercado Pago, Paypal - Bcrypt, etc.",
+            "image": "images/aldonza.png",
+            "url": "https://aldonza.herokuapp.com/"
+        }
+    ]
+}

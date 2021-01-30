@@ -23,7 +23,8 @@
 
 .resume__title > h2 {
     border-bottom: 3px solid lightblue;
-    width: 7rem;
+    width: 6.8rem;
+    font-size: 1.3rem;
 }
 
 .resume__content {
@@ -31,7 +32,7 @@
     flex-direction: column;
     text-align: start;
     line-height: 2rem;
-    width: 70%;
+    width: 80%;
     max-width: 50rem;
 }
 

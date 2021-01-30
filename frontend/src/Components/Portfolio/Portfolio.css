@@ -10,6 +10,7 @@
 }
 
 .portfolio__section > h2 {
+    margin-top: 3rem;
     font-size: 1.2rem;
     color: rgb(136, 130, 130);
     font-weight: 100;
@@ -53,10 +54,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: white;
+}
+
+.portfolio__itemOverlay > h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    border-bottom: 1px solid white;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.portfolio__itemOverlay > p {
+    font-family: Roboto;
+    font-size: 0.8rem;
 }
 
 .portfolio__itemOverlay:hover {
     opacity: 0.7;
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(49, 49, 49);
 }

@@ -1,8 +1,11 @@
 import React from 'react'
 import './Resume.css'
 
-export default function Resume() {
+export default function Resume(props) {
 
+    const skills = props.data.skills
+
+    /* Hacerlo asi al principio
     const skills = [
         {
             name: 'JavaScript',
@@ -20,7 +23,7 @@ export default function Resume() {
             name: 'NodeJS',
             level: '60%'
         }
-    ]
+    ]*/
 
     return (
         <div id='resume'>

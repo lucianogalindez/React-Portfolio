@@ -15,6 +15,11 @@ function Header() {
                 handleShow(false)
             }
         })
+
+        return (() => {
+            window.removeEventListener('scroll')
+        })
+
         }
     , [])
 
@@ -36,6 +41,7 @@ function Header() {
                     <a href='#about'>About</a>
                     <a href='#resume'>Resume</a>
                     <a href='#works'>Works</a>
+                    <a href='#contact'>Contact</a>
                 </div>
                 <div className='header__burger' onClick={handleMenu}>
                     <MenuIcon style={{fontSize: '30px'}}/>
@@ -45,6 +51,7 @@ function Header() {
                     <a href='#about' className='header__hiddenMenu-button' onClick={handleMenu}>About</a>
                     <a href='#resume' className='header__hiddenMenu-button' onClick={handleMenu}>Resume</a>
                     <a href='#works' className='header__hiddenMenu-button' onClick={handleMenu}>Works</a>
+                    <a href='#contact' className='header__hiddenMenu-button' onClick={handleMenu}>Contact</a>
                 </div>
             </div>
         </div>

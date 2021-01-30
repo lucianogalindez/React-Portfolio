@@ -1,10 +1,12 @@
 .banner__bgImage {
-    background-image: url('../../images/montains.jpg');
-    filter: brightness(90%);
+    background-image: url('../../images/sky.jpg');
+    filter: brightness(80%);
     height: 100vh;
-    background-position: center; /* Center the image */
+    background-position: bottom; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */  
+    border-bottom: black;
+    min-height: 26rem;
 }
 
 .banner__title {
