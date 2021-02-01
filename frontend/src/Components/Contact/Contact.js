@@ -16,6 +16,9 @@ export default function Contact() {
             });
 
         e.target.reset()
+        setTimeout(() => {
+            alert('Your message was sent. Thanks!')
+        }, 2000); 
 
     }
 
@@ -25,26 +28,26 @@ export default function Contact() {
         <div className='contact' id='contact'>
 
             <div className='contact__title'>
-                <h1>Contacta conmigo</h1>
+                <h1>Contact With Me</h1>
             </div>
 
             <div className='contact__form'>
                 <form onSubmit={sendEmail}>
                     <div className='contact__formSection'>
-                        <label htmlFor='nombre'>Nombre</label>
-                        <input id='nombre' type='text' name='name' placeholder='Ingrese su nombre..' required/>
+                        <label htmlFor='nombre'>Name</label>
+                        <input id='nombre' type='text' name='name' placeholder='Enter your name..' required/>
                     </div>
                     <div className='contact__formSection'>
-                        <label htmlFor='email'>Email de Contacto</label>
-                        <input id='email' type='email' name='email' placeholder='Ingrese su email...' required/>
+                        <label htmlFor='email'>Email</label>
+                        <input id='email' type='email' name='email' placeholder='Enter your email...' required/>
                     </div>
                     <div className='contact__formSection'>
-                        <label htmlFor='mensaje'>Mensaje</label>
-                        <textarea id='mensaje' name='message' placeholder='Ingrese su mensaje...' required />
+                        <label htmlFor='mensaje'>Messsage</label>
+                        <textarea id='mensaje' name='message' placeholder='Enter your message...' required />
                     </div>
                     <div className='contact__formButton'>
                         <label></label>
-                        <button type='submit' className='primary'>Enviar</button>
+                        <button type='submit' className='primary'>Send</button>
                     </div>
                 </form>
 

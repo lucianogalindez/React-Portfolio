@@ -10,7 +10,7 @@ export default function Footer() {
     return (
         <div className='footer'>
             <div className='footer__creator'>
-                <p>Pagina confeccionada por Luciano Galindez</p>
+                <p>Website Created by Luciano Galindez</p>
             </div>
             <div className='footer__social'>
                 <a href="https://www.facebook.com/luxx.sc" className='facebook'><FacebookIcon /></a>
