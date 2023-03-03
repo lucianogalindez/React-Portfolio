@@ -12,7 +12,7 @@ export default function About() {
                 <div className='about__info-about'>
                     <h2>About me</h2>
                     <p>
-                        My name is Luciano Galindez. I have a degree in Industrial Engineering from the National University of Tucuman. I am currently perfecting myself as a JavasScript Full Stack developer
+                        My name is Luciano Galindez. I have a degree in Industrial Engineering from the National University of Tucuman. I am currently perfecting my skills as a Data Analyst. I also have good knowledge in the field of backend and frontend development with Javascript
                     </p>
                 </div>
                 <div className='about__info-contact'>

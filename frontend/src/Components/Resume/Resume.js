@@ -43,11 +43,46 @@ export default function Resume(props) {
                     <div className='resume__title'>
                         <h2>Works</h2>
                     </div>
-                    <div className='resume__content'>
-                        <h3>Link Inversiones</h3>
-                        <h4>budget analyst • April 2019 - Present</h4>
-                        <p>Budget management and control. AppWeb development for global information control</p>
+                    <div className='resume__contents'>
+                        <div className='resume__content'>
+                            <h3>Paramo Technologies</h3>
+                            <h4>Business Analyst • January 2023 - Present</h4>
+                            <p>
+                                • Refinement of cases from clients, support and product owner <br/> 
+                                • Elaboration of user stories and presentation of them to the development team <br/> 
+                                • Organization and prioritization of cases during sprints 
+                            </p>
+                        </div>
+                        <div className='resume__content'>
+                            <h3>Sovos</h3>
+                            <h4>Business Analyst II • November 2021 - Present</h4>
+                            <p>
+                                • Refinement of cases from clients, support and product owner <br/> 
+                                • Elaboration of user stories and presentation of them to the development team <br/> 
+                                • Management of databases (SQL server) for the generation of more detailed user stories <br/> 
+                                • Data visualization with Power BI <br/> 
+                                • Constant interaction with the technical team throughout the development of tickets 
+                            </p>
+                        </div>
+                        <div className='resume__content'>
+                            <h3>CoderHouse</h3>
+                            <h4>ReactJs Tutor • May 2021 - May 2022</h4>
+                            <p>
+                                • Orientation and clarification of the concepts seen in the classes <br/> 
+                                • Constant interaction with students and other Coderhouse staff members
+                            </p>
+                        </div>
+                        <div className='resume__content'>
+                            <h3>Link Inversiones</h3>
+                            <h4>Budget Analyst • April 2019 - November 2021</h4>
+                            <p>
+                                • Budget management and control <br/>
+                                • Management of groups of people <br/> 
+                                • AppWeb development for global information control <br/>
+                            </p>
+                        </div>
                     </div>
+                    
                 </div>
 
                 <div className='resume__skills'>
@@ -85,7 +120,7 @@ export default function Resume(props) {
                         </ul>
                     </div>
                 </div>
-
+                            
             </div>
         </div>
     )

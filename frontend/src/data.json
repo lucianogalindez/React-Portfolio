@@ -5,11 +5,27 @@
     },
     "skills": [
         {
+            "name": "Excel",
+            "level": "80%"
+        },
+        {
+            "name": "SQL",
+            "level": "80%"
+        },
+        {
+            "name": "Power BI",
+            "level": "80%"
+        },
+        {
             "name": "JavaScript",
             "level": "70%"
         },
         {
             "name": "ReactJS",
+            "level": "75%"
+        },
+        {
+            "name": "Ingles",
             "level": "80%"
         },
         {
@@ -29,19 +45,27 @@
             "image": "images/netflix.png",
             "url": "https://netflix-clone-a450e.web.app/"
         },
+        
         {
             "key": 2,
+            "name": "FrontEnd Spotify Clone",
+            "skillsUsed": "ReactJs - Api Spotify - Context API",
+            "image": "images/spotify.png",
+            "url": "https://spotify-clone-149e2.web.app/"
+        },
+        {
+            "key": 3,
             "name": "Facebook MERN Clone",
             "skillsUsed": "ReactJs - NodeJs - Express - MongoDB",
             "image": "images/facebook.png",
             "url": "https://facebook-clone-mern.web.app/"
         },
         {
-            "key": 3,
-            "name": "Ecommerce Aldonza Online",
-            "skillsUsed": "ReactJs - NodeJs - MongoDB - Api's Mercado Pago, Paypal - Bcrypt, etc.",
-            "image": "images/aldonza.png",
-            "url": "https://aldonza.herokuapp.com/"
+            "key": 4,
+            "name": "TodosCompran Ecommerce",
+            "skillsUsed": "ReactJs - NodeJs - Api's Mercado Pago - Bcrypt, etc.",
+            "image": "images/TodosCompran.png",
+            "url": "https://todoscompranweb.web.app/"
         }
     ]
 }

@@ -36,6 +36,10 @@
     max-width: 50rem;
 }
 
+.resume__content {
+    width: 100%;
+}
+
 .resume__content > h3 {
     font-size: 1.7rem;
     font-family: 'Times New Roman', Times, serif;
@@ -49,6 +53,7 @@
 
 .resume__content > p {
     color: darkgray;
+    margin-bottom: 1.5rem;
 }
 
 .resume__listSkills {

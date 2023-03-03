@@ -25,7 +25,7 @@ function Body(props) {
                     </div>
                </div>
             </div>*/}
-            <Contact />
+            {/* <Contact /> */}
             <Footer />
         </div>
     )

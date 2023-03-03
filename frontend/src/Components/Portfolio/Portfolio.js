@@ -14,7 +14,7 @@ export default function Portfolio(props) {
 
                     {props.data.works.map((work) => (
                         <div className='portfolio__item' key={work.key}>
-                            <a href={work.url} title={work.name}>
+                            <a href={work.url} title={work.name} target='_blank'>
                                 <img src={work.image} alt='project 1'></img>
                                 <div className='portfolio__itemOverlay'>
                                     <h5>{work.name}</h5>
