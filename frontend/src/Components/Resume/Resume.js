@@ -33,9 +33,11 @@ export default function Resume(props) {
                     <div className='resume__title'>
                         <h2>Education</h2>
                     </div>
-                    <div className='resume__content'>
-                        <h3>National University of Tucuman</h3>
-                        <h4>Industrial Engineering • November 2019</h4>
+                    <div className='resume__content__container'>
+                        <div className='resume__content'>
+                            <h3>National University of Tucuman</h3>
+                            <h4>Industrial Engineering • November 2019</h4>
+                        </div>
                     </div>
                 </div>
 
@@ -43,7 +45,7 @@ export default function Resume(props) {
                     <div className='resume__title'>
                         <h2>Works</h2>
                     </div>
-                    <div className='resume__contents'>
+                    <div className='resume__content__container'>
                         <div className='resume__content'>
                             <h3>Paramo Technologies</h3>
                             <h4>Business Analyst • January 2023 - Present</h4>
@@ -89,35 +91,37 @@ export default function Resume(props) {
                     <div className='resume__title'>
                         <h2>Skills</h2>
                     </div>
-                    <div className='resume__content'>
-                        <h4>Experience in the management and control of budgets, advanced management of Office packages and good knowledge in programming</h4>
-                        <ul className='resume__listSkills'>
+                    <div className='resume__content__container'>
+                        <div className='resume__content'>
+                            <h4>Experience in the management and control of budgets, advanced management of Office packages and good knowledge in programming</h4>
+                            <ul className='resume__listSkills'>
 
-                            {skills.map((skill) => (
-                                <li key={skill.name}>
-                                    <span class='resume__listSkills-active' style={{width: skill.level}}></span>
-                                    <span className='resume__listSkills-title'>{skill.name}</span>
+                                {skills.map((skill) => (
+                                    <li key={skill.name}>
+                                        <span class='resume__listSkills-active' style={{width: skill.level}}></span>
+                                        <span className='resume__listSkills-title'>{skill.name}</span>
+                                    </li>
+                                ))}
+
+                                {/*
+                                <li>
+                                    <span class='resume__listSkills-active' style={{width: skills.javascript.level}}></span>
+                                    <span className='resume__listSkills-title'>{skills.javascript.name}</span>
                                 </li>
-                            ))}
-
-                            {/*
-                            <li>
-                                <span class='resume__listSkills-active' style={{width: skills.javascript.level}}></span>
-                                <span className='resume__listSkills-title'>{skills.javascript.name}</span>
-                            </li>
-                            <li>
-                                <span class='resume__listSkills-active'></span>
-                                <span className='resume__listSkills-title'>ReactJS</span>
-                            </li>
-                            <li>
-                                <span class='resume__listSkills-active'></span>
-                                <span className='resume__listSkills-title'>MongoDB</span>
-                            </li>
-                            <li>
-                                <span class='resume__listSkills-active'></span>
-                                <span className='resume__listSkills-title'>NodeJS</span>
-                            </li>*/}
-                        </ul>
+                                <li>
+                                    <span class='resume__listSkills-active'></span>
+                                    <span className='resume__listSkills-title'>ReactJS</span>
+                                </li>
+                                <li>
+                                    <span class='resume__listSkills-active'></span>
+                                    <span className='resume__listSkills-title'>MongoDB</span>
+                                </li>
+                                <li>
+                                    <span class='resume__listSkills-active'></span>
+                                    <span className='resume__listSkills-title'>NodeJS</span>
+                                </li>*/}
+                            </ul>
+                        </div>
                     </div>
                 </div>
                             

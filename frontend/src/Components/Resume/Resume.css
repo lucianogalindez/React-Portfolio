@@ -6,10 +6,21 @@
     padding: 2.5rem 1rem;
 }
 
-.resume > div {
+.resume__education {
     display: flex;
     padding: 3rem 0rem;
     border-bottom: 1px solid lightgray;
+}
+
+.resume__work {
+    display: flex;
+    padding: 3rem 0rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.resume__skills {
+    display: flex;
+    padding: 3rem 0rem 1rem;
 }
 
 .resume__title {
@@ -18,7 +29,7 @@
     font-family: 'Times New Roman', Times, serif;
     min-width: 7rem;
     height: 2rem;
-    width: 30%;
+    width: 40%;
 }
 
 .resume__title > h2 {
@@ -37,6 +48,10 @@
 }
 
 .resume__content {
+    width: 100%;
+}
+
+.resume__content__container {
     width: 100%;
 }
 
@@ -91,7 +106,7 @@
     font-size: 1.1rem;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 650px) {
 
     
 
