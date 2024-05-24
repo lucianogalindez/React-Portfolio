@@ -48,8 +48,14 @@ export default function Resume(props) {
                     <div className='resume__content__container'>
                         <div className='resume__content'>
                             <h3>Paramo Technologies</h3>
-                            <h4>Business Analyst • January 2023 - Present</h4>
+                            <h4>Product Owner • November 2023 - Present</h4>
                             <p>
+                                • Coordination of multiple projects simultaneously <br/> 
+                                • Direct and constant communication with Stakeholders and technical team <br/> 
+                                • Development of sequence diagrams and use cases 
+                            </p>
+                            <h4>Business Analyst • January 2023 - November 2023</h4>
+                            <p className='last__position'>
                                 • Refinement of cases from clients, support and product owner <br/> 
                                 • Elaboration of user stories and presentation of them to the development team <br/> 
                                 • Organization and prioritization of cases during sprints 
@@ -58,7 +64,7 @@ export default function Resume(props) {
                         <div className='resume__content'>
                             <h3>Sovos</h3>
                             <h4>Business Analyst II • November 2021 - Present</h4>
-                            <p>
+                            <p className='last__position'>
                                 • Refinement of cases from clients, support and product owner <br/> 
                                 • Elaboration of user stories and presentation of them to the development team <br/> 
                                 • Management of databases (SQL server) for the generation of more detailed user stories <br/> 
@@ -69,7 +75,7 @@ export default function Resume(props) {
                         <div className='resume__content'>
                             <h3>CoderHouse</h3>
                             <h4>ReactJs Tutor • May 2021 - May 2022</h4>
-                            <p>
+                            <p className='last__position'>
                                 • Orientation and clarification of the concepts seen in the classes <br/> 
                                 • Constant interaction with students and other Coderhouse staff members
                             </p>
@@ -77,7 +83,7 @@ export default function Resume(props) {
                         <div className='resume__content'>
                             <h3>Link Inversiones</h3>
                             <h4>Budget Analyst • April 2019 - November 2021</h4>
-                            <p>
+                            <p className='last__position'>
                                 • Budget management and control <br/>
                                 • Management of groups of people <br/> 
                                 • AppWeb development for global information control <br/>

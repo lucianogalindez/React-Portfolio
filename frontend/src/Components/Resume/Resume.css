@@ -66,9 +66,19 @@
     font-weight: 100;
 }
 
-.resume__content > p {
+.resume__content > .last__position {
     color: darkgray;
     margin-bottom: 1.5rem;
+}
+
+.resume__content > p {
+    color: darkgray;
+    margin-bottom: 0.5rem;
+}
+
+.new_position {
+    margin-bottom: -0.5;
+    color: red;
 }
 
 .resume__listSkills {
